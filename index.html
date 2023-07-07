@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto - Landing Page Neon </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -150,6 +151,130 @@
         </div>
     </section>
 
+    <section class="s-depoimentos">
+        <div class="container">
+            <div class="top">
+                <h2><span>Prático, fácil, moderno</span> Você resolve tudo sem estresse 😊</h2>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="slide-depoimentos">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card-depoimentos">
+                        <div class="user">
+                            <strong>@marciogurka</strong>
+                            <img src="img/icon-twiiter.svg" alt="icone-do-twitter">
+                        </div>
+                        <p>
+                            Valeu @banconeon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon
+                        </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-depoimentos">
+                        <div class="user">
+                            <strong>@marciogurka</strong>
+                            <img src="img/icon-twiiter.svg" alt="icone-do-twitter">
+                        </div>
+                        <p>
+                            Valeu @banconeon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon
+                        </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-depoimentos">
+                        <div class="user">
+                            <strong>@marciogurka</strong>
+                            <img src="img/icon-twiiter.svg" alt="icone-do-twitter">
+                        </div>
+                        <p>
+                            Valeu @banconeon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon
+                        </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-depoimentos">
+                        <div class="user">
+                            <strong>@marciogurka</strong>
+                            <img src="img/icon-twiiter.svg" alt="icone-do-twitter">
+                        </div>
+                        <p>
+                            Valeu @banconeon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon
+                        </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-depoimentos">
+                        <div class="user">
+                            <strong>@marciogurka</strong>
+                            <img src="img/icon-twiiter.svg" alt="icone-do-twitter">
+                        </div>
+                        <p>
+                            Valeu @banconeon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </section>
+
+    <section class="s-conta-digital">
+        <div class="container">
+            <div class="text">
+                <h2><Span>Aproveite</Span>Domine o seu dinheiro com uma conta 100% digital</h2>
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <img src="img/icon-cartao-internacional.svg" alt="Icone cartão internacional">
+                        </div>
+                        <div class="info">
+                            <h4>Cartão vida internacional</h4>
+                            <p>Tenha facilidades e benefícios para o seu dia a dia.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="img/icon-taxa-zero.svg" alt="Icone de taxa zero">
+                        </div>
+                        <div class="info">
+                            <h4>Zero mensalidade e anuidade</h4>
+                            <p>Não gaste grana pagando taxas desnecessárias.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="img/icon-poupanca.svg" alt="Icone da poupança">
+                        </div>
+                        <div class="info">
+                            <h4>Investimento que rende mais que a poupança</h4>
+                            <p>Invista o seu dinheiro de maneira mais rentável.</p>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn-primary">Abra sua conta digital</button>
+            </div>
+            <div class="image">
+                <img src="img/mockup-01.svg" class="mockup-01" alt="">
+                <img src="img/mockup-02.png" class="mockup-02" alt="">
+                <img src="img/circle-conta-digital.svg" class="circle" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".slide-depoimentos", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: ".s-depoimentos .top .swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
 </body>
 
 </html>
